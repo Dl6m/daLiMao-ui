@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import './index.less';
 import classnames from 'classnames';
-import { contextProviders } from '../confingProvider';
+import { contextProviders } from '../contextProviders';
 interface ButtonProps {
   type?: 'highlight' | 'default';
   disabled?: boolean;

@@ -1,6 +1,7 @@
 @prefixCls:'daLiMao-ui';
 @btnPrefix:~'@{prefixCls}-btn';
 
+@confingProvider:~'@{prefixCls}-configProvider';
 //色系
 
 //highlight
@@ -17,3 +18,19 @@
 @dalimao-ui-disabled-color:#000;
 @dalimao-ui-disabled-bg:#f5f5f5;
 @dalimao-ui-disabled-border-color:#d9d9d9;
+
+:root{
+    --min-color: red;
+    --black:#444;
+    --bg:pink;
+    --light-bg:#61afef;
+    --light-color:#666;
+    --border:1px solid rgba(0,0,0,.1);
+}
+//定义多套主题
+:root[data-theme='gray']{
+    --main-color:gray;
+}
+:root[data-theme='red']{
+    --main-color:gray;
+}

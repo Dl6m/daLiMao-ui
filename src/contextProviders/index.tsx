@@ -7,8 +7,3 @@ const defaultConfig: Config = {
 };
 export const contextProviders = createContext(defaultConfig);
 
-const ConfingProvider = () => {
-  return <div>组件1</div>;
-};
-
-export default ConfingProvider;
