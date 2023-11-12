@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext ,ReactNode,CSSProperties } from 'react';
 import './index.less';
 import classnames from 'classnames';
 import { contextProviders } from "../contextProviders";
@@ -9,7 +9,7 @@ interface ButtonProps {
   text?: string;
   children?: ReactNode;
   className?: string;
-  style?: object;
+  style?: CSSProperties;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
 export default function Button(props: ButtonProps) {
@@ -21,12 +21,15 @@ export default function Button(props: ButtonProps) {
     confingProviderPrefix,
   )
 
-   const onChange =(event)=>{
+   const onChange =(event:any)=>{
     const newColor = event.target.value;
     console.log(newColor ,'颜色');
-    const root =  document.querySelector(':root')
-    root?.style?.setProperty('--light-bg' ,newColor)
-    root?.style?.setProperty('--border' ,newColor)
+    const root =  document.querySelector(':root') as HTMLHtmlElement
+    if (root) {
+        root?.style?.setProperty('--light-bg' ,newColor)
+        root?.style?.setProperty('--border' ,newColor)
+    }
+  
 
    }
 

@@ -1,4 +1,4 @@
-# daLiMao-ui
+# da-li-mao-ui
 
 ## Getting Started
 
@@ -31,3 +31,4 @@ Build library via `father`,
 ```bash
 $ npm run build
 ```
+https://dl6m.github.io/da-li-mao-ui

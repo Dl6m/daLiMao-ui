@@ -12,7 +12,7 @@ group:
 ### 高亮按钮
 ```tsx
 import React from 'react';
-import { Button } from 'daLiMao-ui';
+import { Button } from 'da-li-mao-ui';
 
 export default () => <Button text='高亮按钮' type='highlight'/>;
 ```
@@ -20,7 +20,7 @@ export default () => <Button text='高亮按钮' type='highlight'/>;
 
 ```tsx
 import React from 'react';
-import { Button} from 'daLiMao-ui';
+import { Button} from 'da-li-mao-ui';
 
 export default () => <Button text='普通按钮' type='default'/>;
 ```
@@ -28,7 +28,7 @@ export default () => <Button text='普通按钮' type='default'/>;
 
 ```tsx
 import React from 'react';
-import { Button } from 'daLiMao-ui';
+import { Button } from 'da-li-mao-ui';
 
 export default () => <Button text='禁用按钮' disabled/>;
 ```
@@ -37,7 +37,7 @@ export default () => <Button text='禁用按钮' disabled/>;
 
 ```tsx
 import React from 'react';
-import { Button } from 'daLiMao-ui';
+import { Button } from 'da-li-mao-ui';
 
 export default () => <Button type ='highlight' >
 <h1>我是内部组件</h1> 

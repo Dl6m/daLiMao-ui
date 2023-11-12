@@ -1,7 +1,7 @@
 ---
 hero:
-  title: daLiMao-ui
-  desc: daLiMao-ui site example
+  title: da-li-mao-ui
+  desc: da-li-mao-ui site example
   actions:
     - text: Getting Started
       link: /components
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello daLiMao-ui!
+## Hello da-li-mao-ui!

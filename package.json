@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "daLiMao-ui",
+  "private": false,
+  "name": "da-li-mao-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",

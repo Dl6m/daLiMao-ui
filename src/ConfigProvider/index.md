@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React from 'react';
-import { ConfigProvider, Button } from 'daLiMao-ui';
+import { ConfigProvider, Button } from 'da-li-mao-ui';
 
 export default () => (
   <div>
@@ -32,7 +32,7 @@ export default () => (
 
 ```tsx
 import React from 'react';
-import { Button } from 'daLiMao-ui';
+import { Button } from 'da-li-mao-ui';
 
 export default () => <Button type ='highlight' >
 <h1>组件变色</h1> 
@@ -44,7 +44,7 @@ export default () => <Button type ='highlight' >
 
 ```tsx
 import React from 'react';
-import { Button } from 'daLiMao-ui';
+import { Button } from 'da-li-mao-ui';
 
 export default () => <Button type ='highlight' >
 <h1>组件变色</h1> 

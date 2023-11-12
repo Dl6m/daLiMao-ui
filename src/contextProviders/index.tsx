@@ -3,7 +3,7 @@ interface Config {
   prefix?: string;
 }
 const defaultConfig: Config = {
-  prefix: 'daLiMao-ui',
+  prefix: 'da-li-mao-ui',
 };
 export const contextProviders = createContext(defaultConfig);
 

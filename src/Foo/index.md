@@ -13,7 +13,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'daLiMao-ui';
+import { Foo } from 'da-li-mao-ui';
 
 export default () => <Foo title="First Demo" />;
 ```
