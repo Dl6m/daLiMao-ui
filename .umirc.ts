@@ -1,5 +1,5 @@
 import { defineConfig } from 'dumi';
-
+const repo = 'da-li-mao-ui'; 
 export default defineConfig({
   title: 'da-li-mao-ui',
   favicon:
