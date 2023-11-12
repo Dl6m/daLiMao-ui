@@ -1,11 +1,7 @@
 {
   "private": false,
-  "name": "da-li-mao-ui",
+  "name": "dalimao-ui",
   "version": "1.0.0",
-  "engines": {
-    "node": ">=v16.19.0",
-    "npm": ">=8.0.0"
-  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

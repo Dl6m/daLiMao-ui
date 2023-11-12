@@ -1,14 +1,14 @@
 import { defineConfig } from 'dumi';
-const repo = 'da-li-mao-ui';
+const repo = 'dalimao-ui';
 export default defineConfig({
-  title: 'da-li-mao-ui',
+  title: 'dalimao-ui',
   favicon:
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
   mode: 'site',
-  //   base:'/da-li-mao-ui/',
-  //   publicPath:'/da-li-mao-ui/',
+  //   base:'/dalimao-ui/',
+  //   publicPath:'/dalimao-ui/',
   //   exportStatic:{},
 
   devServer: {
