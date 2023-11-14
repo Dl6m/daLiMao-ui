@@ -1,0 +1,36 @@
+@import '../style/common.less';
+
+.@{spacePrefix} {
+  display: inline-flex;
+  &-start {
+    align-items: start;
+    
+  }
+
+  &-end {
+    align-items: end;
+  }
+  &-baseline {
+    align-items: baseline;
+  }
+  &-center {
+    align-items: center;
+  }
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  &-vertical {
+    flex-direction: column;
+  }
+  &-small {
+    gap: 8px;
+
+  }
+  &-middle {
+    gap: 16px;
+  }
+  &-large {
+    gap: 22px;
+  }
+}
